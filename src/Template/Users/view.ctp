@@ -6,6 +6,7 @@
         <li role="presentation"><?= $this->Html->link(__('Nouvel utilisateur'), ['action' => 'add']) ?> </li>
     </ul>
 </nav>
+
 <div class="users view large-9 medium-8 columns content">
     <h3><?= __('Fiche utilisateur') ?></h3>
     <table class="vertical-table">
