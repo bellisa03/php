@@ -16,7 +16,7 @@
     </fieldset>
     <?= $this->Form->button(__('Sauvegarder')) ?>
     <?= $this->Form->end() ?>
-</div>.
+</div>
 
 
 
