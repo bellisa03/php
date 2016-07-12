@@ -131,4 +131,11 @@ class ServicesController extends AppController
         }
         return $this->redirect(['action' => 'index']);
     }
+
+    public function impression(){
+        $word = namespace \Spacebellisa\word\Word();
+        $this->autoRender = false; //permet de ne pas avoir la vue correspondante
+
+
+    }
 }
